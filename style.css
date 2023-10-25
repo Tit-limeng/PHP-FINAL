@@ -344,3 +344,33 @@ box-sizing: border-box;
     background-color: red;
 }
 
+
+
+
+/* rating-book */
+
+.rating-book{
+    width: 90%;
+    overflow: hidden;
+    margin:  20px auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating-book .release{
+    width: 32%;
+    height: 300px;
+}
+.rating-book .pre-order{
+    width: 32%;
+    height: 300px;
+    background-color: rgb(34, 255, 0);
+    margin: 0 2%;
+}
+
+.rating-book .top-rate{
+    width: 32%;
+    height: 300px;
+    background-color: rgb(255, 174, 0);
+}
