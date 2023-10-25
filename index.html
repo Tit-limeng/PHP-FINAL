@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="left-bar">
+            <img src="../img/logo.png" alt="">
+            <button>new</button>
+            <button>old</button>
+            <div class="search-box">
+                <div class="search-logo">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+
+        <div class="right-bar">
+            <button>Login</button>
+            <p>
+                <i class="fa-regular fa-heart"></i>
+            </p>
+
+            <p>
+                <i class="fa-solid fa-lock"></i>
+            </p>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="content-title">
+            <div class="title">
+            <h2>Your Distination for boundless Reading Pleasures!</h2>
+            <p>hello sadfa dsadddfkdskdssdf;kadfefegxcsdsfdsd</p>
+            <p>hlsdgagbsf'l;gdlfga</p>
+            <p>safgsafdgsgsgf</p>
+        </div>
+
+            <div class="content-title-btn">
+                <button>library</button>
+                <button>Booking</button>
+            </div>
+        </div>
+        <div class="content-slide">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="box-slide-book">
+                    
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="box-slide-book">
+                    
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="box-slide-book">
+                    
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="box-slide-book">
+                    
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="box-slide-book">
+                    
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="box-slide-book">
+                    
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="box-slide-book">
+                    hello
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+    </div>
+
+
+    <!-- tab -->
+
+    <div class="tab-box">
+      <div class="tab-btn">
+        <button id="btn-default">Default</button>
+        <button id="btn-categories">Categories</button>
+        <button id="btn-education">Education</button>
+        <button id="btn-business">Business</button>
+        <button id="btn-fantasy">Fantasy</button>
+      </div>
+
+      <div class="Default-box" id="default">
+        <div class="d-box">
+
+        </div>
+        <div class="d-box">
+          
+        </div>
+        <div class="d-box">
+          
+        </div>
+        
+        <div class="d-box">
+          
+        </div>
+      </div>
+
+      <div class="Categories-box" id="categories">
+        <div class="cate-box"></div>
+        <div class="cate-box"></div>
+        <div class="cate-box"></div>
+        <div class="cate-box"></div>
+      </div>
+
+
+      <div class="Education-box" id="education">
+        <div class="edu-box"></div>
+        <div class="edu-box"></div>
+        <div class="edu-box"></div>
+        <div class="edu-box"></div>
+      </div>
+
+      <div class="Business-box" id="business" >
+        <div class="bus-box"></div>
+        <div class="bus-box"></div>
+        <div class="bus-box"></div>
+        <div class="bus-box"></div>
+        
+      </div>
+
+      <div class="Fantasy-box" id="fantasy">
+        <div class="fan-box"></div>
+        <div class="fan-box"></div>
+        <div class="fan-box"></div>
+        <div class="fan-box"></div> 
+      </div>
+
+
+    </div>
+
+
+</body>
+<script src="main.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 2,
+    spaceBetween: 20,
+    loop: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+</script>
+
+
+
+</html>
