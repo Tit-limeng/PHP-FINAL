@@ -18,16 +18,38 @@ Btn_default.addEventListener( 'click' , ()=>{
     Fantasy.style.display= 'none';
     Btn_default.style.backgroundColor = "#AF7AC5";
     Btn_default.style.color = "white";
+    Btn_categories.style.color="black";
+    Btn_categories.style.backgroundColor="white";
+    Btn_education.style.backgroundColor='whitesmoke';
+    Btn_business.style.backgroundColor="whitesmoke";
+    Btn_fantasy.style.backgroundColor="whitesmoke";
+    Btn_education.style.color="black";
+    Btn_fantasy.style.color="black";
+    Btn_business.style.color="black";   
+
+    
+
 })
 
 Btn_categories.addEventListener('click',()=>{
     Categories.style.display='block';
     Categories.style.display='flex';
+    Btn_default.style.backgroundColor="whitesmoke";
+    Btn_default.style.color="black";
     Categories.style.transition = '2s';
     Default.style.display='none';
     Education.style.display= 'none';
     Business.style.display= 'none';
     Fantasy.style.display= 'none';
+    Btn_categories.style.backgroundColor="#AF7AC5";
+    Btn_categories.style.color="white";
+    Btn_business.style.backgroundColor="whitesmoke";
+    Btn_education.style.backgroundColor='whitesmoke';
+    Btn_fantasy.style.backgroundColor="whitesmoke";
+    Btn_fantasy.style.color="black";
+    Btn_business.style.color="black";
+    Btn_education.style.color='black';
+
 })
 
 Btn_education.addEventListener('click', ()=>{
@@ -37,6 +59,18 @@ Btn_education.addEventListener('click', ()=>{
     Categories.style.display= 'none';
     Business.style.display= 'none';
     Fantasy.style.display= 'none';
+    Btn_default.style.backgroundColor='whitesmoke';
+    Btn_business.style.backgroundColor='whitesmoke';
+    Btn_categories.style.backgroundColor='whitesmoke';
+    Btn_education.style.backgroundColor='#AF7AC5';
+    Btn_fantasy.style.backgroundColor='whitesmoke';
+    Btn_default.style.color="black";
+    Btn_categories.style.color="black";
+    Btn_education.style.color='whitesmoke';
+    Btn_fantasy.style.color="black";
+    Btn_business.style.color="black";
+
+
 })
 
 Btn_business.addEventListener('click', ()=>{
@@ -46,6 +80,20 @@ Btn_business.addEventListener('click', ()=>{
     Education.style.display= 'none';
     Categories.style.display= 'none';
     Fantasy.style.display= 'none';
+    Btn_default.style.backgroundColor='whitesmoke';
+    Btn_business.style.backgroundColor='#Af7ac5';
+    Btn_categories.style.backgroundColor='whitesmoke';
+    Btn_education.style.backgroundColor='whitesmoke';
+    Btn_fantasy.style.backgroundColor='whitesmoke';
+    Btn_default.style.color="black";
+    Btn_categories.style.color="black";
+    Btn_fantasy.style.color="black";
+    Btn_education.style.color="black";
+    Btn_business.style.color="whitesmoke";
+
+
+
+
 })
 
 
@@ -56,4 +104,19 @@ Btn_fantasy.addEventListener('click', ()=>{
     Default.style.display= 'none';
     Education.style.display= 'none';
     Categories.style.display= 'none';
+    Btn_fantasy.style.backgroundColor="#Af7ac5"
+    Btn_business.style.backgroundColor="whitesmoke";
+    Btn_default.style.backgroundColor='whitesmoke';
+    Btn_business.style.backgroundColor='whitesmoke';
+    Btn_categories.style.backgroundColor='whitesmoke';
+    Btn_education.style.backgroundColor='whitesmoke';
+    Btn_default.style.color="black";
+    Btn_categories.style.color="black";
+    Btn_business.style.color="black";
+    Btn_education.style.color='black';
+    Btn_fantasy.style.color="whitesmoke";
+    Btn_business.style.color='black';
+
+
+
 })

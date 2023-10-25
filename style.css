@@ -233,6 +233,10 @@ box-sizing: border-box;
     cursor: pointer;
 }
 
+.tab-box .tab-btn button:nth-child(1){
+    background-color:#AF7AC5 ;
+}
+
 .tab-box .Default-box{
     width: 100%;
     overflow: hidden;
