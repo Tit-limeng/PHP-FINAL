@@ -360,17 +360,309 @@ box-sizing: border-box;
 
 .rating-book .release{
     width: 32%;
-    height: 300px;
+    height: 220px;
+    background-color: orangered;
+    display: flex;
 }
+
+.rating-book .release .btn-title{
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+}
+
+.rating-book .release .btn-title .main-title{
+    margin-left: 20px;
+}
+
+.rating-book .release .btn-title .main-title p{
+    margin-top:50px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.rating-book .release .btn-title .main-title h1{
+    margin: 0;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.rating-book .release .btn-title .main-title button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.518);
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.rating-book .release .book-cover{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.rating-book .release .book-cover img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* pre order */
 .rating-book .pre-order{
     width: 32%;
-    height: 300px;
+    height: 220px;
     background-color: rgb(34, 255, 0);
     margin: 0 2%;
+    display: flex;
 }
+
+
+.rating-book .pre-order .btn-title1{
+    width: 50%;
+    height:100%;
+    display: flex;
+}
+
+.rating-book .pre-order .btn-title1 .main-title1{
+    margin-left: 20px;
+}
+
+
+.rating-book .pre-order .btn-title1 .main-title1 p{
+    margin-top:50px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.rating-book .pre-order .btn-title1 .main-title1 h1{
+    margin: 0;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.rating-book .pre-order .btn-title1 .main-title1 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.518);
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.rating-book .pre-order .book-cover1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.rating-book .pre-order .book-cover1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* top rating*/
 
 .rating-book .top-rate{
     width: 32%;
-    height: 300px;
-    background-color: rgb(255, 174, 0);
+    height: 220px;
+    background-color:deepskyblue;
+    display: flex;
 }
+
+
+.rating-book .top-rate .btn-title2{
+    width: 50%;
+    height:100%;
+    display: flex;
+}
+
+.rating-book .top-rate .btn-title2 .main-title2 {
+    margin-left: 20px;
+}
+
+
+.rating-book .top-rate .btn-title2 .main-title2  p{
+    margin-top:50px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.rating-book .top-rate .btn-title2 .main-title2  h1{
+    margin: 0;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.rating-book .top-rate .btn-title2 .main-title2 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.518);
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.rating-book .top-rate .book-cover2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.rating-book .top-rate .book-cover2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* footer */
+
+.footer-bar{
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+.footer-bar .footer-bar-contain{
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-bar .footer-bar-contain .free-delivery{
+    display: flex;
+    align-items: center;
+}
+
+.footer-bar .footer-bar-contain .free-delivery i{
+    font-size: 30px;
+    color: whitesmoke;
+    margin-right: 20px;
+
+}
+
+
+.footer-bar .footer-bar-contain .free-delivery .deli-title h4{
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+.footer-bar .footer-bar-contain .free-delivery .deli-title p{
+    margin: 0;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.801);
+}
+
+/* expert-custom */
+.footer-bar .footer-bar-contain .expert-custom{
+    display: flex;
+    align-items: center;
+}
+
+.footer-bar .footer-bar-contain .expert-custom i{
+    font-size: 30px;
+    color: whitesmoke;
+    margin-right: 20px;
+
+
+}
+
+.footer-bar .footer-bar-contain .expert-custom .expert-title h4{
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.footer-bar .footer-bar-contain .expert-custom .expert-title p{
+    margin: 0;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
+}
+
+/* value */
+.footer-bar .footer-bar-contain .value{
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer-bar .footer-bar-contain .value i{
+    font-size: 30px;
+    color: whitesmoke;
+    margin-right: 20px;
+
+}
+
+.footer-bar .footer-bar-contain .value .value-title h4{
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.footer-bar .footer-bar-contain .value .value-title p{
+    margin: 0;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
+}
+
+/* payment */
+
+
+
+.footer-bar .footer-bar-contain .payment{
+    display: flex;
+    align-items: center;
+}
+
+.footer-bar .footer-bar-contain .payment i{
+    font-size: 30px;
+    color: whitesmoke;
+    margin-right: 20px;
+
+}
+
+.footer-bar .footer-bar-contain .payment .payment-title h4{
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.footer-bar .footer-bar-contain .payment .payment-title p{
+    margin: 0;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+
