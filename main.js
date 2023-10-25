@@ -16,6 +16,8 @@ Btn_default.addEventListener( 'click' , ()=>{
     Education.style.display= 'none';
     Business.style.display= 'none';
     Fantasy.style.display= 'none';
+    Btn_default.style.backgroundColor = "#AF7AC5";
+    Btn_default.style.color = "white";
 })
 
 Btn_categories.addEventListener('click',()=>{
