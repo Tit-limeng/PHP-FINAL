@@ -117,6 +117,4 @@ Btn_fantasy.addEventListener('click', ()=>{
     Btn_fantasy.style.color="whitesmoke";
     Btn_business.style.color='black';
 
-
-
 })

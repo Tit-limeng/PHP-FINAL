@@ -327,7 +327,14 @@ box-sizing: border-box;
     /* height: 600x; */
     overflow: hidden;
     margin: 20px auto;
-    background-color: green;
+    /* background-color: green; */
+}
+
+.collection-box h1{
+    font-size: 25px;
+    font-family: "Ubuntu",sans-serif;
+    color: black;
+    font-weight: bold;
 }
 
 .collection-box .crop-collection-slide{
@@ -668,5 +675,120 @@ box-sizing: border-box;
     color: white;
 }
 
+/* menu-footer */
+
+.menu-footer{
+    width: 100%;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.menu-footer .menu-section-footer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+    justify-content: space-between
+}
+
+.menu-footer .menu-section-footer .help h2{
+    font-size: 20px;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.767);
+}
+
+
+.menu-footer .menu-section-footer .help .li-help li{
+    list-style: none;
+    padding: 10px 0;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.831);
+    cursor: pointer;
+
+}
+
+.menu-footer .menu-section-footer .help .li-help li:hover{
+    text-decoration: underline cornflowerblue ;
+}
+
+.menu-footer .menu-section-footer .explore h2{
+    font-size: 20px;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.767);
+}
+
+.menu-footer .menu-section-footer .explore .li-explore li{
+    list-style: none;
+    padding: 10px 0;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.831);
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+
+}
+
+.menu-footer .menu-section-footer .explore .li-explore li:hover{
+    text-decoration: underline cornflowerblue ;
+}
+
+.menu-footer .menu-section-footer .quickLink h2{
+    font-size: 20px;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.767);
+}
+
+.menu-footer .menu-section-footer .quickLink .li-quickLink li{
+    list-style: none;
+    padding: 10px 0;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.831);
+    cursor: pointer;
+}
+
+.menu-footer .menu-section-footer .quickLink .li-quickLink li:hover{
+    text-decoration: underline cornflowerblue ;
+}
+
+.menu-footer .menu-section-footer .account h2{
+    font-size: 20px;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.767);
+}
+
+.menu-footer .menu-section-footer .account .li-account li{
+    list-style: none;
+    padding: 10px 0;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.831);
+    cursor: pointer;
+}
+
+.menu-footer .menu-section-footer .account .li-account li:hover{
+    text-decoration: underline cornflowerblue ;
+}
+
+/* copy -right */
+
+.copy-right{
+    width: 90%;
+    margin: 80px  auto 10px auto;
+}
+
+.copy-right p{
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: black;
+}
 
 
